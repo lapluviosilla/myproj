@@ -62,7 +62,7 @@ dependencies:
     version: ">= 0"
   capistrano: 
     group: 
-    - :default
+    - :development
     version: ">= 0"
   validation_reflection: 
     group: 
@@ -70,7 +70,7 @@ dependencies:
     version: ">= 0.3.7"
   nokogiri: 
     group: 
-    - :default
+    - :development
     version: = 1.4.1
 specs: 
 - rake: 
@@ -155,7 +155,7 @@ specs:
     version: 0.3.7
 - webrat: 
     version: 0.7.1
-hash: 836aed5d5ceecc7eea37fe2da3680520624f6dfc
+hash: e585d4b60ef2c3d3233cadc2b9c7d1a3730b949a
 sources: 
 - Rubygems: 
     uri: http://rubygems.org
