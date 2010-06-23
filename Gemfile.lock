@@ -52,6 +52,10 @@ dependencies:
     group: 
     - :test
     version: ">= 0"
+  bundler: 
+    group: 
+    - :default
+    version: ">= 0"
   state_machine: 
     group: 
     - :default
@@ -91,6 +95,8 @@ specs:
     version: 0.2.0
 - builder: 
     version: 2.1.2
+- bundler: 
+    version: 0.9.26
 - highline: 
     version: 1.5.2
 - net-ssh: 
@@ -155,7 +161,7 @@ specs:
     version: 0.3.7
 - webrat: 
     version: 0.7.1
-hash: 836aed5d5ceecc7eea37fe2da3680520624f6dfc
+hash: eb8a706ae28eb29acfed14990a3ba5eec3742df6
 sources: 
 - Rubygems: 
     uri: http://rubygems.org
