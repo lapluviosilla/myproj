@@ -155,7 +155,7 @@ specs:
     version: 0.3.7
 - webrat: 
     version: 0.7.1
-hash: e585d4b60ef2c3d3233cadc2b9c7d1a3730b949a
+hash: d76c8e5a54868270c6cab051e1b0e05c637f3492
 sources: 
 - Rubygems: 
     uri: http://rubygems.org
