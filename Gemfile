@@ -1,5 +1,7 @@
 source "http://rubygems.org"
 
+# hack to make passenger happy
+gem "bundler"
 gem "rails", "~>2.3.8"
 gem "mysql"
 gem "haml", ">=3.0.12"
