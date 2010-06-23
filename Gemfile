@@ -8,6 +8,7 @@ gem "validation_reflection", ">=0.3.7"
 gem "formtastic", ">=0.9.10"
 gem "state_machine"
 gem "attribute_normalizer"
+gem "nokogiri", "1.4.2"
 gem "capistrano"
 
 group :development do

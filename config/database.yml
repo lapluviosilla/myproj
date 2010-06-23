@@ -44,5 +44,4 @@ production:
   database: myproj_production
   pool: 5
   username: root
-  password: 
   host: localhost
