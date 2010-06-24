@@ -11,7 +11,7 @@ dependencies:
   rails: 
     group: 
     - :default
-    version: ~> 2.3.8
+    version: = 2.3.5
   mongrel: 
     group: 
     - :development
@@ -80,17 +80,17 @@ specs:
 - rake: 
     version: 0.8.7
 - activesupport: 
-    version: 2.3.8
+    version: 2.3.5
 - rack: 
-    version: 1.1.0
+    version: 1.0.1
 - actionpack: 
-    version: 2.3.8
+    version: 2.3.5
 - actionmailer: 
-    version: 2.3.8
+    version: 2.3.5
 - activerecord: 
-    version: 2.3.8
+    version: 2.3.5
 - activeresource: 
-    version: 2.3.8
+    version: 2.3.5
 - attribute_normalizer: 
     version: 0.2.0
 - builder: 
@@ -130,7 +130,7 @@ specs:
 - gem_plugin: 
     version: 0.2.3
 - haml: 
-    version: 3.0.12
+    version: 3.0.13
 - has_scope: 
     version: 0.5.0
 - responders: 
@@ -148,7 +148,7 @@ specs:
 - rack-test: 
     version: 0.5.4
 - rails: 
-    version: 2.3.8
+    version: 2.3.5
 - rr: 
     version: 0.10.11
 - shoulda: 
@@ -161,7 +161,7 @@ specs:
     version: 0.3.7
 - webrat: 
     version: 0.7.1
-hash: eb8a706ae28eb29acfed14990a3ba5eec3742df6
+hash: 6a449a1dd4ac47ca3b2f7fd2598a585d05f31139
 sources: 
 - Rubygems: 
     uri: http://rubygems.org
