@@ -10,6 +10,8 @@ gem "validation_reflection", ">=0.3.7"
 gem "formtastic", ">=0.9.10"
 gem "state_machine"
 gem "attribute_normalizer"
+gem "paperclip", "2.3.1.1"
+
 gem "nokogiri", "1.4.1"
 gem "capistrano"
 

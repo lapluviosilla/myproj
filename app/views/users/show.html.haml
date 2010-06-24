@@ -4,6 +4,9 @@
 %p
   %b Last name:
   = h @user.last_name
+%p
+  %b Avatar:
+  = image_tag @user.avatar.url(:medium)
 
 = link_to 'Edit', edit_user_path(@user)
 |
