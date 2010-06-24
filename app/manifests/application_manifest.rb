@@ -50,7 +50,9 @@ class ApplicationManifest < Moonshine::Manifest::Rails
     # on_stage 'testing' do
     #   file '/etc/motd', :ensure => :file, :content => "Welcome to the TEST server!"
     # end
-    file '/etc/mysql/conf.d/binlog.cnf', :ensure => :present, :content => template('app/manifests/templates/binlog.cnf')
+    file '/etc/mysql/conf.d/binlog.cnf', :ensure => :present,
+         :content => template('app/manifests/templates/binlog.cnf'), 
+         :notify => service('mysql')
 
   end
   # The following line includes the 'application_packages' recipe defined above

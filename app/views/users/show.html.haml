@@ -1,0 +1,10 @@
+%p
+  %b First name:
+  = h @user.first_name
+%p
+  %b Last name:
+  = h @user.last_name
+
+= link_to 'Edit', edit_user_path(@user)
+|
+= link_to 'Back', users_path
