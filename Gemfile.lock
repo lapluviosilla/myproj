@@ -12,6 +12,8 @@ dependencies:
     group: 
     - :default
     version: = 2.3.5
+    require: []
+
   mongrel: 
     group: 
     - :development
@@ -152,7 +154,7 @@ specs:
 - rr: 
     version: 0.10.11
 - shoulda: 
-    version: 2.11.0
+    version: 2.11.1
 - state_machine: 
     version: 0.9.2
 - timecop: 
@@ -161,7 +163,7 @@ specs:
     version: 0.3.7
 - webrat: 
     version: 0.7.1
-hash: 6a449a1dd4ac47ca3b2f7fd2598a585d05f31139
+hash: 03b24b45218a76c3107f39a230b53fdd466d9fc2
 sources: 
 - Rubygems: 
     uri: http://rubygems.org

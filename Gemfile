@@ -2,7 +2,7 @@ source "http://rubygems.org"
 
 # hack to make passenger happy
 gem "bundler"
-gem "rails", "2.3.5"
+gem "rails", "2.3.5", :require => nil
 gem "mysql"
 gem "haml", ">=3.0.12"
 gem "inherited_resources", "1.0.6"
